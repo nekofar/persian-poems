@@ -1,14 +1,20 @@
 package com.nekofar.milad.persianpoems.models;
 
+import com.google.gson.annotations.Expose;
+
 public class Poet {
 
-    private int id;
+    @Expose
+    int id;
 
-    private int categoryId;
+    @Expose
+    int categoryId;
 
-    private String name;
+    @Expose
+    String name;
 
-    private String description;
+    @Expose
+    String description;
 
     public int getId() {
         return id;
